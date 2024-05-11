@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhập kết quả nước</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo/dkpharmalogo.png">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="root">
+        <h2>NHẬP KẾT QUẢ NƯỚC</h2>
+        <div class="form">
+            <div class="block block__ngay show">
+                <label for="ngay_lay_mau">Ngày lấy mẫu:</label>
+                <input type="date" class="ngay" >
+            </div>
+
+            <div class="block block__vi-tri show">
+                <label for="vi_tri">Vị trí lấy mẫu W:</label>
+                <input type="text"  class="vi_tri" autocomplete="on" placeholder="ví dụ W5 nhập là 5">
+            </div>
+
+            <div class="block block__do-dan show" >
+                <label for="do_dan">Độ dẫn điện (μS/cm):</label>
+                <input type="number" id="do_dan" name="do_dan" class=" do_dan">
+            </div>
+
+            <div class="block block__nhiet-do show">
+                <label for="nhiet_do">Nhiệt độ (℃):</label>
+                <input type="number" id="nhiet_do" name="nhiet_do" class="nhiet_do">
+            </div>
+
+            <div class="block block__vi-sinh show">
+                <label for="vi_sinh">Vi sinh(cfu/ml):</label>
+                <input type="number" id="vi_sinh" name="vi_sinh" class="vi_sinh" placeholder="nếu < 1 nhập là 0" >
+            </div>
+
+            <div class="block block__ph hide">
+                <label for="ph">pH:</label>
+                <input type="number" id="ph" name="ph" class="ph">
+            </div>
+
+
+            <div class="block block__can hide">
+                <label for="can_khong_tan">Cắn không tan (mg):</label>
+                <input type="number" id="can_khong_tan" name="can_khong_tan" class="can">
+            </div>
+
+            <div class="show block">
+                <input type="submit" value="Gửi" class="submit">
+            </div>
+
+   
+
+            <div class="status hide">
+            </div>
+
+            <a href="https://docs.google.com/spreadsheets/d/1HTfw88_MB61xSUGwKpbN5Y88sT1_UQjGC3qhyEWSAuw/edit#gid=1208967167" target="_blank"> Xem Kết quả</a>
+        </div>  
+    </div>
+    <script src="./assets/main.js"></script>
+</body>
+</html>

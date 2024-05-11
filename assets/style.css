@@ -1,0 +1,78 @@
+.root{
+    width: 420px;
+    margin: auto;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.block{
+    padding: 5px 0px;
+    align-items: center;
+}
+
+label{
+    width: 150px;
+}
+
+input,select{
+    padding: 10px;
+    width: 50%;
+    font-size: 20px;
+    display: inline;
+}
+
+.submit{
+    margin-top: 25px;
+    width: 100%;
+}
+
+.hide{
+    display: none !important;
+}
+
+.show{
+    display: flex !important;
+}
+
+
+
+.status {
+  animation: showstatus ease 1s;
+}
+
+.status__block{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.status img{
+    width: 30px;
+    height: 30px;
+}
+
+.status p{
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+
+
+
+@keyframes showstatus {
+ from {
+    opacity: 0;
+ }
+
+ to {
+    opacity: 1;
+ }
+    
+}
